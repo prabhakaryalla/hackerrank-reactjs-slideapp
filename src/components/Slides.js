@@ -13,7 +13,7 @@ function Slides({slides}) {
 
     useEffect(() => {
         setCurrentSlide(slides[currentLimit]);
-        if(currentLimit == 0)
+        if(currentLimit === 0)
         {
             setPrevDisabled(true);
             setRestartDisabled(true);
@@ -23,7 +23,7 @@ function Slides({slides}) {
             setPrevDisabled(false);
             setRestartDisabled(false);
         }
-        if(currentLimit == slidesUpperLimit)
+        if(currentLimit === slidesUpperLimit)
         {
             setNextDisabled(true);
         }

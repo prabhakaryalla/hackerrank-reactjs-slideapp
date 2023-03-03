@@ -15,7 +15,7 @@
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
-    "test": "react-scripts test"
+    "test": "react-scripts --openssl-legacy-provider test"
   },
   "devDependencies": {
     "chai": "^4.2.0",
